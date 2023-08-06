@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
-import ComponentA from './componets/componentsA'
-import ComponentB from './componets/componentsB'
+import ComponentA from './componets/ComponentsA';
+import ComponentB from './componets/ComponentsB';
 import ComponentC from './componets/ComponentsC';
 
 
@@ -12,7 +12,7 @@ function App() {
   return (
     <>
     <ComponentA nomborA={nombor}/>
-    <ComponentB />
+    <ComponentB/>
     <ComponentC objekSaya={{
       nama: "Zulrahman",
       umur: 31,
